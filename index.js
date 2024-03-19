@@ -1,6 +1,6 @@
 import express from "express";
 import session from 'express-session'; 
-import Router from './auth.js'; 
+import Router from './routes/auth.js'; 
 
 const app = express();
 const PORT = process.env.PORT || 3000;
