@@ -6,10 +6,5 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [{ 
-    
-      "source": "../auth/(.*)",
-      "destination": "/auth/1$1"
-
-  }]
+  "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
 }
