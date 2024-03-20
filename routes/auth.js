@@ -7,7 +7,6 @@ const router = express.Router();
 
 router.post('/login', async (req, res) => {
     const { username,password} = req.body;
-    console.log(req.body)
 
     try {
         const user = await prisma.user.findUnique({
@@ -16,7 +15,6 @@ router.post('/login', async (req, res) => {
                 
             }
         });
-
         if (!user) {
             return res.status(401).send("Unauthorized: Invalid username");
         }
