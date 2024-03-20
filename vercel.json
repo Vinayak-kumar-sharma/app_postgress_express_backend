@@ -8,7 +8,7 @@
   ],
   "routes": [{ 
     
-      "source": "/routes/(.*)",
+      "source": "../routes/(.*)",
       "destination": "/routes/$1"
 
   }]
