@@ -1,4 +1,4 @@
- **Express.js Backend for User Sign-In and Logout**
+ # Express.js Backend for User Sign-In and Logout
 
 A minimalistic backend project that provides user sign-in and logout functionality. Built with Express.js, PostgreSQL, and Prisma, it offers a straightforward solution for handling authentication.
 
